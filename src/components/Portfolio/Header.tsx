@@ -18,11 +18,11 @@ const Header = () => {
         </h1>
         
         <h2 className="text-3xl font-light mb-6 text-white/90 animate-fade-in delay-300">
-          Data Engineer
+          Data Analyst
         </h2>
         
         <p className="text-xl text-white/80 max-w-3xl mx-auto mb-8 animate-fade-in delay-500">
-          Aspiring Cloud Computing and Data Science professional eager to apply my skills in data analysis and cloud technologies. 
+          Aspiring Cloud Computing and Data Science professional with a focus on Data Analyzing, eager to apply my skills in data analysis and cloud technologies. 
           Ready to learn and contribute to innovative projects in a dynamic team environment.
         </p>
 
@@ -46,7 +46,7 @@ const Header = () => {
           <Button 
             variant="outline"
             size="lg"
-            className="border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-3 rounded-full"
+            className="bg-white text-primary border-white hover:bg-white/90 font-semibold px-8 py-3 rounded-full"
             onClick={() => window.open('https://www.linkedin.com/in/chaitu-reddi-1ab75b289/', '_blank')}
           >
             <Linkedin className="w-5 h-5 mr-2" />
@@ -56,7 +56,7 @@ const Header = () => {
           <Button 
             variant="outline"
             size="lg"
-            className="border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-3 rounded-full"
+            className="bg-white text-primary border-white hover:bg-white/90 font-semibold px-8 py-3 rounded-full"
             onClick={() => window.open('https://github.com/Chaitu-Reddi', '_blank')}
           >
             <Github className="w-5 h-5 mr-2" />

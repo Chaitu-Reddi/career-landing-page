@@ -7,13 +7,13 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: Code,
-      skills: ["C", "Python", "Data Structures"],
+      skills: ["C", "Python", "Java", "Data Structures"],
       color: "bg-primary"
     },
     {
       title: "Web Development",
       icon: Code,
-      skills: ["HTML", "CSS", "React", "TypeScript"],
+      skills: ["HTML", "CSS"],
       color: "bg-accent"
     },
     {
